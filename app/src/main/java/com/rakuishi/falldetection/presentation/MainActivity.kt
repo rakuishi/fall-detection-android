@@ -1,9 +1,12 @@
-package com.rakuishi.falldetection
+package com.rakuishi.falldetection.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.rakuishi.falldetection.ui.main.MainFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.rakuishi.falldetection.R
+import com.rakuishi.falldetection.presentation.main.MainFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
